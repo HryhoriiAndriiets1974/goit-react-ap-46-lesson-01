@@ -1,5 +1,7 @@
 import { BaseTable, THead, Th, Tr, Td } from './CryptoHistory.styled';
+import { format } from 'date-fns'
 
+let i = -4;
 
 export const CryptoHistory = ({items}) => {
   return (
@@ -16,10 +18,10 @@ export const CryptoHistory = ({items}) => {
     <tbody>
     {items.map(({id, price, amount, date}) => (
           <Tr key={id}>
-            <Td>{id}</Td>
+            <Td>{i++}</Td>
             <Td>{price}</Td>
             <Td>{amount}</Td>
-            <Td>{date}</Td>
+            <Td>{format(new Date(date), "yyyy-MM-dd'T'HH:mm")}</Td>
           </Tr>
     ))}
     </tbody>
