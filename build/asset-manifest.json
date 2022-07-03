@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/goit-react-ap-46-lesson-01/static/css/main.c3d5249d.css",
+    "main.js": "/goit-react-ap-46-lesson-01/static/js/main.236c6747.js",
+    "index.html": "/goit-react-ap-46-lesson-01/index.html",
+    "main.c3d5249d.css.map": "/goit-react-ap-46-lesson-01/static/css/main.c3d5249d.css.map",
+    "main.236c6747.js.map": "/goit-react-ap-46-lesson-01/static/js/main.236c6747.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3d5249d.css",
+    "static/js/main.236c6747.js"
+  ]
+}
